@@ -1,0 +1,17 @@
+
+
+
+
+
+(* It’s an error to refer to a variable, parameter or function not in scope in the current namespace.*)
+
+var test;
+main() {
+    test=2;
+    x = 1;
+    if(test > 4){
+        var x;
+    }
+    prints("hello, world\n"); 
+    return 42;
+}

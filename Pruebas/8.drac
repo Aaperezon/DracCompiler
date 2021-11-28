@@ -1,0 +1,20 @@
+
+
+
+
+
+
+
+(* In every function call the number of arguments must match the number of parameters contained in the corresponding 
+function definition.*)
+main() {
+    prints("hello, world\n"); 
+    return 42;
+}
+z(a,b){
+  var x, y, z;
+  x=1;
+  y=1;
+  z=1;
+  z(x,y,z);
+}

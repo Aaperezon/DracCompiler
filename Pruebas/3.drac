@@ -1,0 +1,20 @@
+
+
+
+
+
+
+
+
+
+
+(*Any variable defined outside a function is a global variable. The scope of a global variable is the body of all the 
+functions in the program, even those defined before the variable itself.*)
+
+var x;
+
+main() {
+    prints("hello, world\n");
+    x = 2;
+    return 42;
+}

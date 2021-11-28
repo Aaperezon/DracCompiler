@@ -1,0 +1,20 @@
+
+
+
+
+
+
+
+(*It’s an error to define two functions with the same name.*)
+var x;
+main() {
+    prints("hello, world\n");
+    x = 2;
+    return 42;
+}
+y(){
+    var x;
+}
+y(){
+    var x;
+}

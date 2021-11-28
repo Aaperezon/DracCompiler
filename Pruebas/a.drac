@@ -1,0 +1,19 @@
+
+
+
+
+
+
+(* Each function has its own independent namespace for its local names. This means that parameter and local variable 
+names have to be unique inside the body of each function. It’s valid to have a parameter or local variable name with the 
+same name as a global variable. In that case the local name shadows the global variable.*)
+var a;
+main() {
+    prints("hello, world\n"); 
+    return 42;
+}
+z(test){
+  var test;
+  test =3;
+  z(test);
+}

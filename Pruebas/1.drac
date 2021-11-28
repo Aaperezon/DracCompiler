@@ -1,0 +1,20 @@
+
+
+
+
+
+
+
+
+
+
+
+
+(*The language only supports a 32-bit signed two’s complement integer (int32) data type. This is the data type for every variable, 
+parameter and function return value. This means that a Drac compiler doesn’t need to verify type consistency.*)
+main() {
+    var x;
+    x = 2147483649;
+    prints("hello, world\n");
+    return 42;
+}

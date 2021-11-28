@@ -1,0 +1,20 @@
+
+
+
+
+
+
+
+(*Function names and global variables exist in different namespaces. This means that you can have a global 
+variable with the same name as a function and vice versa.*)
+
+var x;
+
+main() {
+    prints("hello, world\n");
+    x = 2;
+    return 42;
+}
+x() {
+  prints("hola");
+}

@@ -1,0 +1,10 @@
+(* The break statement can only be used inside the body of a while or do-while statements.*)
+var x;
+main() {
+    x = 1;
+    if (x > 43){
+        break;
+    }
+    prints("hello, world\n"); 
+    return 42;
+}

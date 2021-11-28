@@ -1,0 +1,20 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(*Every program starts its execution in a function called main. It is an error if the program does not contain a 
+function with this name.*)
+pruebamal() {
+    prints("hello, world\n");
+    return 42;
+}

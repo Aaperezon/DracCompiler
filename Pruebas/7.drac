@@ -1,0 +1,20 @@
+
+
+
+
+
+
+(* function definition is visible from the body of all the functions in a program, even from itself. Thus, 
+functions can call themselves recursively directly or indirectly.*)
+var a;
+main() {
+    prints("hello, world\n"); 
+    return 42;
+}
+z(a,b){
+  var x, y, z;
+  x=1;
+  y=1;
+  z=1;
+  z(x,y,z);
+}
